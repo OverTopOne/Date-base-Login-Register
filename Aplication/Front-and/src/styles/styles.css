@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F6F7;
+}
+
+h1 {
+    color: #2C3E50;
+}
+
+button {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #2C3E50;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ECF0F1;
+}
+
+.navbar-nav .nav-link {
+    color: #ECF0F1;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #5e5134;
+    border-radius: 4px;
+}
+
+.navbar-toggle-icon {
+    filter: invert(100%);
+}
+
+.login-container,
+.register-container {
+    display: flex;                  
+    flex-direction: column;         
+    align-items: center;            
+    justify-content: center;        
+    height: 100vh;
+}
+
+.login-form,
+.register-form {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+}
+
+.login-form h1,
+.register-form h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #2C3E50;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+    
+}
+
+.icon-login {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
+
+.login-form input,
+.register-form input {
+    margin-bottom: 1rem;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.register-form input[type="text"],
+.register-form input[type="password"] {
+    border-radius: 4px;
+    border: 1px solid #BDC3C7;
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-form button,
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #1a7edb; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.login-form button:hover,
+.register-form button:hover {
+    background-color: #e6630b; 
+    transform: scale(1.05); 
+}
+
+
+.login-form p,
+.register-form p {
+    color: red;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px; 
+}
+
+.btn-primary {
+    background-color: #195cee; 
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+.home-container {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    max-height: 600px;
+    
+}
+
